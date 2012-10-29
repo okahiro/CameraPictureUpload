@@ -24,6 +24,7 @@
 		69A4B50A163E3C3400026783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A4B4E2163E3C3300026783 /* Foundation.framework */; };
 		69A4B512163E3C3400026783 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A4B510163E3C3400026783 /* InfoPlist.strings */; };
 		69A4B515163E3C3400026783 /* CameraPictureUploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4B514163E3C3400026783 /* CameraPictureUploadTests.m */; };
+		69A4B51F163E614E00026783 /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = 69A4B51E163E614E00026783 /* README.textile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		69A4B511163E3C3400026783 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A4B513163E3C3400026783 /* CameraPictureUploadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraPictureUploadTests.h; sourceTree = "<group>"; };
 		69A4B514163E3C3400026783 /* CameraPictureUploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraPictureUploadTests.m; sourceTree = "<group>"; };
+		69A4B51E163E614E00026783 /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		69A4B4D1163E3C3200026783 = {
 			isa = PBXGroup;
 			children = (
+				69A4B51E163E614E00026783 /* README.textile */,
 				69A4B4E6163E3C3300026783 /* CameraPictureUpload */,
 				69A4B50D163E3C3400026783 /* CameraPictureUploadTests */,
 				69A4B4DF163E3C3200026783 /* Frameworks */,
@@ -240,6 +243,7 @@
 				69A4B4F7163E3C3300026783 /* Default-568h@2x.png in Resources */,
 				69A4B4FA163E3C3300026783 /* MainStoryboard_iPhone.storyboard in Resources */,
 				69A4B4FD163E3C3300026783 /* MainStoryboard_iPad.storyboard in Resources */,
+				69A4B51F163E614E00026783 /* README.textile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
