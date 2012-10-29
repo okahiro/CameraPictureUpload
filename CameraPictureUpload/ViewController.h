@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPopoverControllerDelegate>
+{
+	UIPopoverController *popOver;
+	CGPoint touchPoint;
+}
+
+- (IBAction)cameraButtonTapped:(id)sender;
+- (IBAction)libraryButtonTapped:(id)sender;
+- (IBAction)uploadButtonTapped:(id)sender;
+@property (retain, nonatomic) IBOutlet UIImageView *pictureImage;
 
 @end
